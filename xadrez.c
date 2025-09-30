@@ -87,6 +87,17 @@ printf("Desafio de Xadrez Novato movimentação das peças\n");
     printf("Fase 1 (Vertical) - Duas casas para baixo:\n");
     for (int i = 1; i <= 2; i++) {
         printf("Baixo: %d\n", i);
+        if (i == 2) {
+            printf("  (Fim da fase vertical, iniciando a fase horizontal)\n");
+            int j = 1;
+        
+            while (j <= 1) {
+                printf("Esquerda: %d (Completa o L)\n", j);
+                j++;
+            }
+        }
+    }
+    printf("\n");
 
 
 
