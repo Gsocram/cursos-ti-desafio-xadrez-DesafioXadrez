@@ -83,8 +83,10 @@ printf("Desafio de Xadrez Novato movimentação das peças\n");
     }
     printf("\n");
     printf("--- Movimento do Cavalo (Duas para baixo e uma para a esquerda) ---\n");
-    
-    
+
+    printf("Fase 1 (Vertical) - Duas casas para baixo:\n");
+    for (int i = 1; i <= 2; i++) {
+        printf("Baixo: %d\n", i);
 
 
 
