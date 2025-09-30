@@ -2,61 +2,6 @@
 
 int main() {
 
-printf("Desafio de Xadrez Novato movimentação das peças\n");
-
-    printf("---Movimento do Bispo (2 casas na diagonal)---\n");
-    int casas_bispo = 1;
-    do{
-        printf("Cima, Direita: %d\n", casas_bispo);
-        casas_bispo++;
-    }while(casas_bispo <2);
-
-    printf("\n");
-
-    printf("--- Movimento da Torre (5 casas para a direita)---\n");
-    for(int i = 1; i <= 5; i++){
-        printf("Direita: %d\n", i);
-    }
-    printf("\n");
-
-    printf("--- Movimento da Rainha (8 casas para a esquerda)---\n");
-    int casas_rainha = 1;
-    while (casas_rainha <= 8){
-        printf("Esquerda: %d\n", casas_rainha);
-        casas_rainha++;
-    }
-    printf("\n");
-    #include <stdio.h>
-
-int main() {
-
-printf("Desafio de Xadrez Novato movimentação das peças\n");
-
-    printf("---Movimento do Bispo (2 casas na diagonal)---\n");
-    int casas_bispo = 1;
-    do{
-        printf("Cima, Direita: %d\n", casas_bispo);
-        casas_bispo++;
-    }while(casas_bispo <2);
-
-    printf("\n");
-
-    printf("--- Movimento da Torre (5 casas para a direita)---\n");
-    for(int i = 1; i <= 5; i++){
-        printf("Direita: %d\n", i);
-    }
-    printf("\n");
-
-    printf("--- Movimento da Rainha (8 casas para a esquerda)---\n");
-    int casas_rainha = 1;
-    while (casas_rainha <= 8){
-        printf("Esquerda: %d\n", casas_rainha);
-        casas_rainha++;
-    }
-    printf("\n");
-    #include <stdio.h>
-
-int main() {
 
 printf("Desafio de Xadrez Novato movimentação das peças\n");
 
